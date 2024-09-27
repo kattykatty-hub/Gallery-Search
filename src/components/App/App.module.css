@@ -1,0 +1,29 @@
+.app {
+  padding: 20px; /* Add padding for inner spacing */
+  text-align: center; /* Center align text */
+  background-color: #f4f4f9; /* Background color */
+  min-height: 100vh; /* Full height to cover the viewport */
+  width: 100%; /* Ensure full width */
+  display: flex; /* Use flexbox for layout */
+  flex-direction: column; /* Align children vertically */
+  justify-content: center; /* Center children vertically */
+  align-items: center; /* Center children horizontally */
+}
+
+/* Optional: Styling for child components, if necessary */
+.container {
+  width: 100%; /* Full width for containers */
+  max-width: 1200px; /* Optional max width for larger screens */
+  margin: 0 auto; /* Center the container */
+  padding: 0 20px; /* Side padding */
+}
+
+.header {
+  width: 100%; /* Full width header */
+  margin-bottom: 20px; /* Spacing below the header */
+}
+
+.footer {
+  width: 100%; /* Full width footer */
+  margin-top: 20px; /* Spacing above the footer */
+}
